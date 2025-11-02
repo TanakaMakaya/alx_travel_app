@@ -37,6 +37,9 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'drf_yasg', # 👈 For Swagger
+    # Local app
+    'listings.apps.ListingsConfig', #
 ]
 
 MIDDLEWARE = [
